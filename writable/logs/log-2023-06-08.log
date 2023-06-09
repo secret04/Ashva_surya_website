@@ -1,0 +1,612 @@
+INFO - 2023-06-08 02:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 02:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 13:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 13:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 13:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 13:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 16:50:14 --> Class "App\Models\Admin\NotificationModel" not found
+in APPPATH\Controllers\Admin\Notification.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Notification->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 16:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 16:50:53 --> Class "App\Models\NotificationModel" not found
+in APPPATH\Controllers\Admin\Notification.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Notification->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 16:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 16:51:05 --> Class "App\Models\NotificationModel" not found
+in APPPATH\Controllers\Admin\Notification.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Notification->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 16:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-08 16:58:22 --> mysqli_sql_exception: Column 'created_by' cannot be null in D:\xampp\htdocs\demo\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\demo\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `no...', 0)
+#1 D:\xampp\htdocs\demo\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `no...')
+#2 D:\xampp\htdocs\demo\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `no...')
+#3 D:\xampp\htdocs\demo\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `no...', Array, false)
+#4 D:\xampp\htdocs\demo\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\demo\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\demo\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\demo\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\demo\app\Controllers\Admin\Notification.php(54): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\demo\system\CodeIgniter.php(934): App\Controllers\Admin\Notification->notifications()
+#10 D:\xampp\htdocs\demo\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+#11 D:\xampp\htdocs\demo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\demo\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-08 16:58:22 --> Column 'created_by' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `notifications` (`description`, `displayToDate`, `displayFromDate`, `created_by`, `created_at`) VALUES (\'qwefgvc\', \'2023-06-09\', \'2023-06-08\', NULL, \'2023-06-08 16:58:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `notifications` (`description`, `displayToDate`, `displayFromDate`, `created_by`, `created_at`) VALUES (\'qwefgvc\', \'2023-06-09\', \'2023-06-08\', NULL, \'2023-06-08 16:58:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `notifications` (`description`, `displayToDate`, `displayFromDate`, `created_by`, `created_at`) VALUES (\'qwefgvc\', \'2023-06-09\', \'2023-06-08\', NULL, \'2023-06-08 16:58:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `notifications` (`description`, `displayToDate`, `displayFromDate`, `created_by`, `created_at`) VALUES (:description:, :displayToDate:, :displayFromDate:, :created_by:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Admin\Notification.php(54): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->notifications()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 16:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 16:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 17:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:01:52 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\notification.php on line 82.
+ 1 APPPATH\Views\admin\notification.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\notification.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\notification.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 5 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:02:59 --> Attempt to read property "description" on array
+in APPPATH\Views\admin\notification.php on line 89.
+ 1 APPPATH\Views\admin\notification.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "description" on array', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\notification.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\notification.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 5 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:03:32 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 17:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:07:20 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:08:52 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:08:55 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:11:41 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:11:43 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:11:43 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:11:45 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:12:39 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:12:41 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:12:43 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:12:46 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:13:10 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:13:13 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:13:14 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 17:13:15 --> Call to undefined function convertDMYYY()
+in APPPATH\Views\admin\notification.php on line 92.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/notification', [], true)
+ 4 APPPATH\Controllers\Admin\Notification.php(25): view('admin/notification', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Notification->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Notification))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 17:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 17:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 17:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 17:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:06:29 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:09:25 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:09:26 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:09:28 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:09:29 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:11:59 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:12:00 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:12:34 --> Undefined variable $id
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:12:37 --> Undefined variable $id
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:17:15 --> Undefined variable $video
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:17:20 --> Undefined variable $video
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:17:22 --> Undefined variable $video
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:19:02 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:21:34 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:24:40 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:28:22 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 18:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:31:32 --> Undefined variable $id
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:33:32 --> Undefined variable $video
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $video', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:33:57 --> Undefined variable $videos
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:33:58 --> Undefined variable $videos
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:34:00 --> Undefined variable $videos
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:34:01 --> Undefined variable $videos
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:34:41 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:34:55 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:34:57 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 18:37:10 --> Undefined variable $videoId
+in APPPATH\Views\admin\dashboard.php on line 127.
+ 1 APPPATH\Views\admin\dashboard.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videoId', 'D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php', 127)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\xampp\\htdocs\\demo\\app\\Views\\admin\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 5 APPPATH\Controllers\Admin\Home.php(45): view('admin/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 18:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
